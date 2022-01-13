@@ -27,31 +27,37 @@
     </style>
   </head>
   <body>
-    <div>
-      <img src="" alt="" /> <!-- The hero image will be in a div by itself. -->
-    </div>
-    <div>
-      <h1>Equilibrium #3429</h1>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-    </div>
-    <!-- The title and subtitle will be grouped together. -->
+    <div class="main-mobile">
+      <div class="preview">
+        <img src="images/image-equilibrium.jpg" alt="" />
+        <!-- The hero image will be in a div by itself. -->
+      </div>
 
-    <div>
-      <h2>0.041 ETH</h2>
-      <h3>3 days left</h3>
-    </div>
-    <!-- The price and remaining purchase time are grouped together b/c a simple flexbox makes their spacing simple. -->
-    
-    <div>
-      <p>Creation of Jules Wyvern</p>
-    </div>
-    <!-- Lastly, avatar and creator name are grouped together at the bottom of the page. -->
+      <div class="title-and-subtitle">
+        <!-- The title and subtitle will be grouped together. -->
+        <p class="fw-600">Equilibrium #3429</p>
+        <p class="primary fw-200">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      <div class="metrics pad-15">
+        <p class="secondary fw-400">0.041 ETH</p>
+        <p class="primary fw-200">3 days left</p>
+      </div>
+      <!-- The price and remaining purchase time are grouped together b/c a simple flexbox makes their spacing simple. -->
+
+      <div class="credit">
+        <p><span class="primary">Creation</span> of Jules Wyvern</p>
+      </div>
+      <!-- Lastly, avatar and creator name are grouped together at the bottom of the page. -->
+
+      <!-- <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div> -->
     </div>
   </body>
 </html>
