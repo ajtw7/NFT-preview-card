@@ -18,6 +18,12 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
+p {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: .3px;
+}
+
 .main-mobile {
     display: flex;
     width: 375px;
@@ -85,4 +91,19 @@ img {
 
 .secondary {
     color: hsl(178, 100%, 50%)
+}
+
+.price-and-icon {
+    display: flex;
+    width: 30%;
+    align-items: center;
+
+}
+
+.time-and-icon {
+    display: flex;
+}
+
+.price-and-icon svg {
+    padding-right: 5px;
 }
