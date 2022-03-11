@@ -43,6 +43,16 @@ img {
     border-radius: 5%;
 }
 
+img:hover {
+    color: red;
+    opacity: .7;
+    filter: blur(4px);
+
+}
+
+
+
+
 .title-and-subtitle {
     width: 84%;
     height: 100px;
@@ -116,4 +126,8 @@ img {
     height: auto;
     border: 1px solid white;
     border-radius: 25px;
+}
+
+.hidden {
+    display: none;
 }
